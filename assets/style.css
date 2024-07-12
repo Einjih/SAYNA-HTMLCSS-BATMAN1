@@ -33,6 +33,7 @@ button{
 .container{
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 body{
     background-color: black;
@@ -123,6 +124,22 @@ box-shadow: var(--black-color) 5px 5px 60px;
     margin-top: 15px;
 }
 /* Design de la section batman personnage*/
+#batman-cinema, #batman-justiceleague{
+    margin-top: 40px;
+}
+.titre{
+    font-weight: bold;
+;
+    margin: 30px 0;
+}
+
+.description{
+margin-bottom: 40px;
+text-align: justify;
+width: 80%;
+font-size: 23px;
+}
+
 .batman-personnage{
     display: flex;
     justify-content: space-between;
@@ -134,4 +151,27 @@ box-shadow: var(--black-color) 5px 5px 60px;
     height: 800px;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.personnage-info{
+    text-align: center;
+}
+
+/* Design de la partie multimedia*/
+#multimedia .slider-multimedia{
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+}
+
+#multimedia .slider-image{
+    width: 100%;
+}
+
+#multimedia .slider-content{
+    padding: 15px;
+    background-color: grey;
+}
+#multimedia p{
+    font-size: 14px;
 }
