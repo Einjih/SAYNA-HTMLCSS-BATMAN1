@@ -158,6 +158,20 @@ font-size: 23px;
 }
 
 /* Design de la partie multimedia*/
+#multimedia button{
+    position: relative;
+    top: 190px;
+    background: none;
+    border: none;
+}
+
+#multimedia button.right{
+right: -85%;
+}
+
+#multimedia button.left{
+    right: -10%;
+    }
 #multimedia .slider-multimedia{
     display: flex;
     width: 50%;
@@ -170,8 +184,23 @@ font-size: 23px;
 
 #multimedia .slider-content{
     padding: 15px;
-    background-color: grey;
+    background: linear-gradient(
+    150deg,var(--gradient-white),var(--blue-color));
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #multimedia p{
     font-size: 14px;
 }
+#multimedia .yellow{
+    color: var(--yellow-light);
+}
+
+.image-bande-annonce{
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+
+/* Design de la partie formulaire*/
