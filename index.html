@@ -224,27 +224,32 @@
         <!--La septième section Formulaire-->
         <section id="contact">
 
-            <div>
+            <div class="form">
                 <h2>PRENONS CONTACT </h2>
                 <form action="">
-                    <label for="email">ADRESSE EMAIL</label>
-                    <input type="email" name="email" placeholder="email"> <br>
-                    <label for="newsletter">NEWSLETTER</label> <br>
+                    <label class="titre" for="email">ADRESSE EMAIL</label>
+                    <input type="email" name="email" placeholder="Adresse email"> <br>
+                    <label class="titre" for="newsletter">NEWSLETTER</label> <br>
                     <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</label>
                     <input type="checkbox" name="newsletter"><br>
-                    <div>
-                        <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
-                        <span>
+                    <div class="choisir">
+                        <span >Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                        <span class="icon">
                             <img src="assets/Logos/icon_flèche_2.png" alt="">
                         </span>
                     </div>
                     <div>
-                        <p>Souhaitez-vous recevoir des news</p>
+                        <p class="news">Souhaitez-vous recevoir des news</p>
                     </div>
-                    <a href="">Des films</a>
-                    <a href="">Des comics</a>
-                    <a href="">De tout</a>
-                    <p>MESSAGE</p>
+                    <div class="btn-group">
+                        <input type="radio" id="film">
+                        <label for="film">Des films</label>
+                        <input type="radio" id="comics">
+                        <label for="comics">Des comics</label>
+                        <input type="radio" id="tout">
+                        <label for="tout">De tout</label>
+                    </div>
+                    <p class="titre">MESSAGE</p>
                     <textarea name="" id="" cols="30"  placeholder="Laissez un commentaire pour la communauté"></textarea>
                     <input type="submit" value="CONFIRMER">
                 </form>
@@ -254,19 +259,19 @@
 
 
         <!--La huitième section Citation-->
-        <section>
-            <div>
-                <div>
+        <section id="citations">
+            <div class="container">
+                <div class="guillemet-open">
                     <img src="assets/Logos/icon_guillemets_1.png" alt=""></div>
             </div>
-            <div>
-                <div>
-                    <p>« La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »</p>
+            <div class="citation-carte">
+                <div class="citation-text">
+                    <p>« La seule façon raisonnable de vivre en ce bas monde,<br> c'est en dehors des règles. »</p>
                 </div>
-                <div>
+                <div class="citation-auteur">
                     <p>The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</p>
                 </div>
-                <div>
+                <div class="guillemet-close">
                     <img src="assets/Logos/icon_guillemets_1.png" alt=""></div>
             </div>
             </div>
@@ -274,19 +279,20 @@
 
 
     </main>
+    <div class="clearfix"></div>
     <footer>
-        <div>
-            <div>
+        <div class="container">
+            <div class="text-footer">
                 <img src="assets/Logos/icon_WB.png" alt="">
-                <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+                Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves
             </div>
-            <div>
-                <a href=""><img src="assets/Logos/logo_sayna_white.png" alt=""></a>
-                <a href=""><img src="assets/Logos/icon_x.png" alt=""></a>
-                <a href=""><img src="assets/Logos/icon_DC.png" alt=""></a>
-                <a href=""><img src="assets/Logos/icon_facebook.png" alt=""></a>
-                <a href=""><img src="assets/Logos/icon_ig.png" alt=""></a>
-                <a href=""><img src="assets/Logos/icon_tw.png" alt=""></a>
+            <div class="social-footer">
+                <a href="#" class="social-item"><img src="assets/Logos/logo_sayna_white.png" alt="">
+                 <img src="assets/Logos/icon_x.png" alt="">
+                <img src="assets/Logos/icon_DC.png" alt=""></a>
+                <a href="" class="social-item"><img src="assets/Logos/icon_facebook.png" alt=""></a>
+                <a href="" class="social-item"><img src="assets/Logos/icon_ig.png" alt=""></a>
+                <a href="" class="social-item"><img src="assets/Logos/icon_tw.png" alt=""></a>
                    
             </div>
         </div>
